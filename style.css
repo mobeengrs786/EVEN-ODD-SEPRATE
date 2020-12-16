@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: o;
+}
+body{
+     background: linear-gradient(to right, #000000, #1149b1, #000000);
+    
+}
+
+h1{
+
+    text-align: center;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+#evod{
+    text-align: center;
+    color: bisque;
+}
+form{
+
+    text-align: center;
+    color: chartreuse;
+    font-size: 22px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(245, 224, 217);
+    padding-top: 2px;
+}
+
+#creat{
+    text-align: center;
+}
+
+
+button{
+    color: rgb(0, 214, 18);
+    background-color: black;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 8px;
+    text-align: center;
+}

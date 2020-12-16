@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+    <h2> EVEVN AND ODD NUMBER SEPRATION</h2>
+    <!-- <div id="main"> -->
+    <form action="#" onsubmit="addNum()">
+        <input type="number" id="num1" placeholder="Enter Number">
+        <button id="butt">Enter</button>
+        </form>
+        <p id="result"></p>
+        <div id="creat">        
+        <button onclick="gen()">Creat List</button><br>
+        </div>
+    
+        <div id="evod">
+        <h1>Even no</h1><br>
+        <p id="even"></p>
+        <h1>Odd Number</h1><br>
+        <p id="odd"></p>
+        </div>
+
+        <div id="program">     
+            
+            </div>
+                    
+          <script>
+              let arr = []
+            let odd = []
+            let even = []
+        
+              function addNum(){
+                  let put = document.getElementById('num1').value;
+                  arr.push(put)
+                  document.getElementById('result').innerHTML = arr;
+                  document.getElementById('num1').value = "";  ////// for empty the field
+              }
+            function gen(){
+                for(i = 0 ; i <= arr.length; i++){
+                    if (arr[i] % 2 === 0){
+                    even.push(arr[i]);
+                    document.getElementById('even').innerHTML = even;
+                    
+                    }
+                    else{
+                        odd.push(arr[i]);
+                        document.getElementById('odd').innerHTML = odd;
+                    }
+                }
+                
+            }
+        
+        
+          </script>   
+          
+          <!-- </div> -->
+</body>
+</html>
